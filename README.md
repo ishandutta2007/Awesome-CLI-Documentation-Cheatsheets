@@ -1,191 +1,188 @@
-# Awesome-CLI-Documentation-Cheatsheets
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome CLI Documentation & Cheatsheets Ecosystem" width="100%" />
+</p>
 
-## Top CLI Documentation & Cheatsheets Ecosystem
+# Awesome CLI Documentation & Cheatsheets Ecosystem
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Tracked Projects](https://img.shields.io/badge/Tools_Tracked-25+-blue.svg)](#table-of-contents)
 
+> A comprehensive, SEO-optimized, curated guide to CLI documentation tools, interactive cheatsheet managers, simplified man pages, offline documentation browsers, and developer productivity launchers.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Simplified Man Pages, Interactive Cheatsheets & Offline Documentation Browsers*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **CLI Documentation & Cheatsheets**. These tools enable developers to quickly recall command syntax and flags without wading through dense manual pages—from crowdsourced simplified examples to offline documentation browsers that work without an internet connection.
-
-
-
-**Examples** include Man pages, TLDR pages, Cheat.sh, ExplainShell, DevDocs, Dash (Kapeli), Zeal, Command-line-fu, Bro pages, and Navi (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, community-maintained examples, and offline documentation access—ideal for developers, system administrators, and organizations seeking transparent, vendor-independent CLI knowledge management.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Dash (Kapeli)](https://kapeli.com/dash)**  
-
-  **The gold standard for offline documentation browsers on macOS** . Features **200+ docsets** covering programming languages, frameworks, and APIs . **Instant search** with fuzzy matching and symbol navigation . **Integration with Xcode, Alfred, and other macOS tools** . **The premium choice** for macOS developers who want a polished, native documentation experience.
-
-
-
-- **[DevDocs](https://devdocs.io/)**  
-
-  **Fast, offline, and free documentation browser for developers** . Features **100+ documentation sets** in a unified web interface . **Works offline via PWA**—once loaded, documentation is available without internet . **The most accessible online/offline documentation browser**—no installation required.
-
-
-
-- **[ExplainShell](https://explainshell.com/)**  
-
-  **Web-based tool that breaks down shell commands into their component parts** . Type or paste a command and see **every flag, argument, and subcommand explained** based on man page content . **The most educational tool for learning command syntax** . **Note**: Web-only, not self-hostable.
-
-
-
-- **[Command-line-fu](https://www.commandlinefu.com/)**  
-
-  **Community-driven repository of command-line snippets** . Features **voting system** to surface the best commands . **The original social cheatsheet** for command-line one-liners.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[tldr-pages](https://github.com/tldr-pages/tldr)**  
-
-  **Collaborative cheatsheets for console commands** (ISC) . **61,746+ GitHub stars** . **The most widely adopted open-source cheatsheet project**—**community-maintained help pages for command-line tools that aim to be a simpler, more approachable complement to traditional man pages**  . **The core insight**: man pages are thorough but often hard to digest; **there is room for simpler help pages focused on practical examples**  . **Features**: **simplified, practical command examples**, **translation into multiple languages**, **Markdown-based pages** that are easy to contribute to, and **official clients** for Python (`pipx install tldr`), Rust (`brew install tlrc`), and Node.js (`npm install -g tldr`)  . **The web client at tldr.inbrowser.app works without installation** with offline support via PWA  . **The reference implementation for simplified command documentation** .
-
-
-
-- **[cheat.sh](https://github.com/chubin/cheat.sh)**  
-
-  **The only cheat sheet you need** (MIT) . **41,000+ GitHub stars** . **Aggregates cheat sheets from multiple sources (including tldr-pages) into one unified interface**  . **Query via `curl cht.sh/command`** —returns static examples curated by contributors  . **The most comprehensive cheatsheet library**—covers **56+ programming languages, command-line tools, and UNIX utilities**  . **The best choice for looking up syntax for programming languages** (Python, Go, JavaScript) or getting comprehensive command examples (tar, rsync, ffmpeg)  .
-
-
-
-- **[cheat](https://github.com/cheat/cheat)**  
-
-  **Create and view interactive cheatsheets on the command-line** (MIT) . **13,000+ GitHub stars** . **The self-hosted approach to cheatsheets**—**designed to help remind Unix system administrators of options for commands that they use frequently, but not frequently enough to remember**  . **Features**: **cheatsheets are plain text files without extensions**, **nested sheets** (`cheat foo/bar`), **multiple cheatpaths** for personal/team/community separation, **autocompletion for bash, fish, and zsh**, **fzf integration for searching**, and **community cheatsheet downloads on first run**  . **The best choice for teams that want to maintain their own internal cheatsheet collection** .
-
-
-
-- **[navi](https://github.com/denisidoro/navi)**  
-
-  **An interactive cheatsheet tool for the command-line** (Apache-2.0) . **16,000+ GitHub stars** . **The most interactive cheatsheet experience**—**allows you to browse through cheatsheets and execute commands**  . **Suggested values for arguments are dynamically displayed in a list**—spares you from knowing CLIs by heart, copy-pasting output from intermediate commands, and makes you type less  . **Features**: **fuzzy search**, **dynamic argument suggestions**, **works with your own cheatsheets or community ones** . **The best choice for developers who want interactive command discovery** .
-
-
-
-- **[Zeal](https://github.com/zealdocs/zeal)**  
-
-  **Simple offline documentation browser inspired by Dash** (GPL-3.0) . **The open-source alternative to Dash**—**offers access to over 200 docsets covering various libraries and APIs**  . **Features**: **offline access to documentation**, **instant search**, **docset filtering with `:` syntax** (e.g., `java:BaseDAO`), **command-line query support** (`zeal python:pprint`), and **Dash docset compatibility**  . **The standard offline documentation browser for Linux and Windows** .
-
-
-
-- **[Zealpy](https://pypi.org/project/zealpy/)**  
-
-  **Lightweight, zero-dependency offline documentation browser and CLI for Dash and Zeal docsets** (GPL-3.0) . **Runs anywhere without compiling C++ code**—launches in milliseconds  . **Features**: **terminal CLI for instant symbol search**, **modern Dark Mode Web UI**, **official docset downloader for Python, Qt, PyQt, Pandas, NumPy, Flask, Django, PostgreSQL, and 20+ other popular stacks**, **auto-detection of existing Zeal docsets**  . **The most accessible offline documentation tool**—pure Python standard library, perfect for offline environments and exams  .
-
-
-
-- **[bropages](https://github.com/ethanschoonover/bropages)**  
-
-  **Highly readable supplement to man pages** (deprecated) . **Shows concise, common-case examples for Unix commands**—examples are submitted by the user base, and can be voted up or down  . **The original crowdsourced man page alternative**—now deprecated but historically important.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Command Line Interface Pages](https://github.com/commandlineinterfacepages/clip)** — Standardized help pages for CLI, directories, and configs  .
-
-- **[devhints (Rico's cheatsheets)](https://devhints.io/)** — Not just focused on the command-line; includes cheatsheets related to programming  .
-
-- **[eg](https://github.com/srsudar/eg)** — Provides detailed examples with explanations on the command-line  .
-
-- **[kb](https://github.com/gnebbia/kb)** — Minimalist command-line knowledge base manager  .
-
-- **[noman](https://pypi.org/project/noman-cli/)** — AI-powered, human-friendly man pages (MIT) . **Pre-generated, simplified documentation with real-world examples and FAQs**  .
-
-- **[xpln](https://pypi.org/project/xpln2me/)** — CLI tool that explains terminal commands before you execute them  .
-
-- **[arsenal-ng](https://github.com/halilkirazkaya/arsenal-ng)** — Modern pentest command launcher and cheatsheet manager (MIT) . **150+ cybersecurity cheatsheets with TUI**  .
-
-- **[awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)** — Programming language and developer tool cheatsheets (MIT) . **12,000+ GitHub stars**  .
-
-- **[clishe](https://pypi.org/project/clishe/)** — Natural language to command-line tool with local AI (open-source)  .
-
-- Community **n8n** workflows for cheatsheet synchronization and documentation alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **tldr-pages** for simplified command examples with **cheat** for team-maintained cheatsheets, **navi** for interactive discovery, **Zeal** or **Zealpy** for offline documentation browsing, and **cheat.sh** for comprehensive language reference—creating a complete CLI knowledge management stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- CLI documentation tools handling command examples must ensure examples are safe and don't include destructive commands without clear warnings.
-
-- **Open-source CLI documentation is mature and community-driven.** tldr-pages (61K+ stars) provides simplified command examples across languages  . cheat.sh aggregates multiple sources into one interface  . Zeal offers 200+ offline docsets  . **These are genuine alternatives to commercial documentation browsers.**
-
-- **The tldr vs man page distinction matters.** Man pages are thorough but dense; **tldr focuses on the most common use cases with practical examples**  . **Neither replaces the other**—tldr for quick syntax recall, man pages for complete reference.
-
-- **Offline access is the differentiator.** Zeal and Zealpy provide **offline documentation browsing**  . **This matters for air-gapped environments, exams, and unreliable internet connections.**
-
-- **Interactive tools change the workflow.** navi's dynamic argument suggestions and fuzzy search **spare you from knowing CLIs by heart**  . **This is a fundamentally different experience from static lookup**—exploration versus reference.
-
-- Self-hosted open-source solutions require proper cheatsheet curation and ongoing maintenance. **Cheatsheets are only as good as their examples**—outdated or incorrect examples undermine trust in the tool.
-
-
+Last updated: October 2026
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+  - [Primary Category Leaders](#primary-category-leaders)
+  - [Interactive TUI & CLI Cheatsheet Managers](#interactive-tui--cli-cheatsheet-managers)
+  - [Specialized Cheatsheet References & Handbooks](#specialized-cheatsheet-references--handbooks)
+- [Architecture & Stack Comparison](#architecture--stack-comparison)
+- [How to Choose the Right Tool](#how-to-choose-the-right-tool)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & Best Practices](#disclaimer--best-practices)
 
-**Made for developers, system administrators, and organizations building transparent CLI knowledge solutions.**  
+---
 
-Let's make CLI Documentation & Cheatsheets more open, data-driven, and accessible.
+## Sector Overview & Market Dynamics
+
+The developer documentation and CLI cheatsheets domain represents a critical sub-segment of the broader developer tooling and productivity software market, currently estimated at **$1.8B to $2.2B** globally with an accelerating CAGR of ~16.5% powered by AI terminal assistants. The ecosystem exhibits **moderate-to-high fragmentation** at the lookup and reference level (divided among community-maintained Markdown pages, local SQLite-backed docsets, and terminal curl interfaces), but transitions toward **winner-take-most concentration** in modern GPU-accelerated and AI-native terminal workflows where deep ecosystem integration and network effects dominate developer workstations.
+
+---
+
+## SaaS & Hosted Platforms
+
+| Product | Valuation / Revenue | Starting Price | Free Tier Limits | Key Highlights & Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Warp](https://www.warp.dev/)** | **~$200M Valuation** ($73M+ VC raised) | **$18/user/month** (Build tier, billed annually) | **100% Free forever** for individuals (includes full core terminal, Warp Drive workflows, and base Warp Agent CLI) | Modern Rust-based, GPU-accelerated terminal with built-in AI command search (`Cmd+Shift+K`), shared team workflows, and interactive parameter prompts. |
+| **[Raycast](https://www.raycast.com/)** | **~$100M+ Valuation** (~$5M–$6M ARR) | **$8/month** (Pro tier, billed annually) | **100% Free forever** for individual local use (includes unlimited local snippets, script commands, community extensions, and window management; excludes cloud sync & AI) | Blazing-fast extensible desktop command palette with instant text-expansion snippets, community cheatsheet extensions, and unified developer actions. |
+| **[Dash](https://kapeli.com/dash)** | **~$500K–$1M ARR** (Bootstrapped / Indie) | **$2.35/month** (~$28/year subscription for macOS) | **Unregistered free trial** with no time expiration (all features and 200+ offline docsets accessible; displays periodic reminder nags with slight delay popups) | The gold-standard offline documentation browser and snippet manager for macOS, supporting 200+ offline API docsets with fuzzy search and IDE integrations. |
+| **[DevDocs](https://devdocs.io/)** | **Non-Profit / Open Web** (Supported by freeCodeCamp) | **Free** ($0) | **100% Free forever** with no limits (PWA offline caching for 100+ documentation sets; no accounts or paid upgrades required) | Fast, centralized web and offline documentation aggregator combining 100+ language/framework manuals into a unified, instant-search interface. |
+| **[ExplainShell](https://explainshell.com/)** | **Indie Project** ($0 commercialization) | **Free** ($0) | **100% Free forever** with no limits (Web-based parser with complete access to man page argument breakdowns) | Interactive visual shell command analyzer that dissects complex command strings into AST tokens and displays matching man page flag definitions. |
+| **[Command-line-fu](https://www.commandlinefu.com/)** | **Community Platform** ($0 commercialization) | **Free** ($0) | **100% Free forever** with no limits (Unlimited search, browsing, and community voting for command-line one-liners) | Crowd-voted community repository of real-world shell one-liners, terminal commands, and command-line tips categorized by tag and upvote score. |
+
+---
+
+## Open-Source GitHub Projects
+
+All open-source repositories below are sorted in **descending order by GitHub stargazers count** and feature social badge counters linking directly to each project's stargazers community.
+
+### Primary Category Leaders
+
+- **[tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)** [![GitHub stars](https://img.shields.io/github/stars/tiimgreen/github-cheat-sheet?style=social&color=white)](https://github.com/tiimgreen/github-cheat-sheet/stargazers)  
+  *A comprehensive, multi-language guide of tips, tricks, and hidden features for Git and GitHub.* Features in-depth shortcuts for git CLI revisions, rebasing, stash tricks, submodule handling, and GitHub search syntaxes.
+
+- **[tldr-pages/tldr](https://github.com/tldr-pages/tldr)** [![GitHub stars](https://img.shields.io/github/stars/tldr-pages/tldr?style=social&color=white)](https://github.com/tldr-pages/tldr/stargazers)  
+  *Collaborative, community-driven cheatsheets for command-line tools.* The de-facto standard complement to dense man pages, providing practical, real-world examples for thousands of commands across Linux, macOS, Windows, and FreeBSD. Supported by native clients across Rust, Python, Go, and web PWAs.
+
+- **[chubin/cheat.sh](https://github.com/chubin/cheat.sh)** [![GitHub stars](https://img.shields.io/github/stars/chubin/cheat.sh?style=social&color=white)](https://github.com/chubin/cheat.sh/stargazers)  
+  *The only cheatsheet you need — accessible via plain curl.* Zero-installation cheatsheet service aggregating tldr-pages, StackOverflow, and specialized community sheets covering 56+ programming languages and hundreds of UNIX utilities (`curl cht.sh/tar`).
+
+- **[freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs)** [![GitHub stars](https://img.shields.io/github/stars/freeCodeCamp/devdocs?style=social&color=white)](https://github.com/freeCodeCamp/devdocs/stargazers)  
+  *All-in-one API documentation environment with offline PWA support.* Integrates official documentation sets for major programming languages, web APIs, and frameworks into a fast, keyboard-navigable desktop and mobile interface.
+
+- **[alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)** [![GitHub stars](https://img.shields.io/github/stars/alebcay/awesome-shell?style=social&color=white)](https://github.com/alebcay/awesome-shell/stargazers)  
+  *Curated collection of command-line frameworks, shells, documentation utilities, and terminal productivity tools.* Provides an extensive directory of command-line productivity enhancements.
+
+- **[denisidoro/navi](https://github.com/denisidoro/navi)** [![GitHub stars](https://img.shields.io/github/stars/denisidoro/navi?style=social&color=white)](https://github.com/denisidoro/navi/stargazers)  
+  *Interactive cheatsheet tool with fuzzy auto-completion and parameter suggestions.* Written in Rust, navi prompts for command parameters dynamically from custom or cheat.sh repositories, saving developers from manually copying parameters or memorizing complex syntax.
+
+- **[idank/explainshell](https://github.com/idank/explainshell)** [![GitHub stars](https://img.shields.io/github/stars/idank/explainshell?style=social&color=white)](https://github.com/idank/explainshell/stargazers)  
+  *Live web application that parses shell commands into AST tokens and highlights manpage matches.* Breaks down complex shell incantations (arguments, flags, redirections) and presents individual manual explanations.
+
+- **[cheat/cheat](https://github.com/cheat/cheat)** [![GitHub stars](https://img.shields.io/github/stars/cheat/cheat?style=social&color=white)](https://github.com/cheat/cheat/stargazers)  
+  *Create and view interactive cheatsheets directly in your terminal.* Tailored for system administrators and DevOps engineers to manage private, team, and community cheatsheets in plain text with fuzzy search via fzf.
+
+- **[zealdocs/zeal](https://github.com/zealdocs/zeal)** [![GitHub stars](https://img.shields.io/github/stars/zealdocs/zeal?style=social&color=white)](https://github.com/zealdocs/zeal/stargazers)  
+  *Offline documentation browser for Linux and Windows inspired by Dash.* Connects to 200+ Dash-compatible docsets with zero internet dependency, fast symbol search, and editor integrations (Vim, Emacs, VS Code).
+
+- **[skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)** [![GitHub stars](https://img.shields.io/github/stars/skywind3000/awesome-cheatsheets?style=social&color=white)](https://github.com/skywind3000/awesome-cheatsheets/stargazers)  
+  *Curated quick reference sheets for developers, database architects, and sysadmins.* Comprehensive cheat sheets covering Bash, Git, Python, VIM, tmux, gdb, regex, and network diagnostics.
+
+- **[Idnan/bash-guide](https://github.com/Idnan/bash-guide)** [![GitHub stars](https://img.shields.io/github/stars/Idnan/bash-guide?style=social&color=white)](https://github.com/Idnan/bash-guide/stargazers)  
+  *Comprehensive guide to mastering the Bash command line.* Covers core shell patterns, parameter expansions, flow controls, and essential CLI commands with syntax references.
+
+- **[tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer)** [![GitHub stars](https://img.shields.io/github/stars/tealdeer-rs/tealdeer?style=social&color=white)](https://github.com/tealdeer-rs/tealdeer/stargazers)  
+  *Blazing fast implementation of tldr in Rust.* Fetches and caches tldr pages locally with millisecond lookup speeds, syntax coloring, and automatic background cache updates.
+
+- **[gnebbia/kb](https://github.com/gnebbia/kb)** [![GitHub stars](https://img.shields.io/github/stars/gnebbia/kb?style=social&color=white)](https://github.com/gnebbia/kb/stargazers)  
+  *Minimalist command-line knowledge base manager.* Designed to collect, organize, and search personal cheatsheets, procedures, code snippets, and operational runbooks directly in the terminal.
+
+- **[srsudar/eg](https://github.com/srsudar/eg)** [![GitHub stars](https://img.shields.io/github/stars/srsudar/eg?style=social&color=white)](https://github.com/srsudar/eg/stargazers)  
+  *Practical command-line examples with clear explanations.* Complements man pages with user-tested command examples and inline annotations.
+
+- **[isacikgoz/tldr](https://github.com/isacikgoz/tldr)** [![GitHub stars](https://img.shields.io/github/stars/isacikgoz/tldr?style=social&color=white)](https://github.com/isacikgoz/tldr/stargazers)  
+  *Interactive command-line client for tldr written in Go.* Supports interactive fuzzy matching and direct command execution from the tldr prompt.
+
+- **[tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)** [![GitHub stars](https://img.shields.io/github/stars/tldr-pages/tlrc?style=social&color=white)](https://github.com/tldr-pages/tlrc/stargazers)  
+  *Official client specification for tldr in Rust.* Standard reference client maintaining strict POSIX and cross-platform compatibility.
+
+- **[filiparag/wikiman](https://github.com/filiparag/wikiman)** [![GitHub stars](https://img.shields.io/github/stars/filiparag/wikiman?style=social&color=white)](https://github.com/filiparag/wikiman/stargazers)  
+  *Universal offline documentation search engine.* Unifies manual pages, tldr-pages, ArchWiki, Gentoo Wiki, and FreeBSD docs into a unified TUI search with fuzzy matching.
+
+- **[halilkirazkaya/arsenal-ng](https://github.com/halilkirazkaya/arsenal-ng)** [![GitHub stars](https://img.shields.io/github/stars/halilkirazkaya/arsenal-ng?style=social&color=white)](https://github.com/halilkirazkaya/arsenal-ng/stargazers)  
+  *Modern security & pentest command launcher with cheatsheet manager.* Features 150+ categorized cybersecurity cheatsheets with an interactive fuzzy TUI.
+
+- **[hubsmoke/bro](https://github.com/hubsmoke/bro)** [![GitHub stars](https://img.shields.io/github/stars/hubsmoke/bro?style=social&color=white)](https://github.com/hubsmoke/bro/stargazers)  
+  *Historical crowdsourced command examples utility.* The foundational project that inspired modern crowdsourced help pages (now archived; historically significant).
+
+---
+
+### Interactive TUI & CLI Cheatsheet Managers
+
+| Tool | Ecosystem / Language | Primary Interface | Offline Capable | Best Used For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[navi](https://github.com/denisidoro/navi)** | Rust | Terminal Interactive TUI / fzf | Yes | Interactive command composition with argument placeholders |
+| **[cheat](https://github.com/cheat/cheat)** | Go | Terminal CLI & fzf | Yes | Team-shared private cheatsheets with multiple cheatpaths |
+| **[tealdeer](https://github.com/tealdeer-rs/tealdeer)** | Rust | Terminal CLI | Yes (Local cache) | Instant sub-millisecond tldr lookup |
+| **[wikiman](https://github.com/filiparag/wikiman)** | C / Shell | Terminal TUI | Yes | Unified offline search across man, tldr, and Linux distros |
+| **[arsenal-ng](https://github.com/halilkirazkaya/arsenal-ng)** | Python | Terminal TUI | Yes | Cybersecurity, CTF, and penetration testing payloads |
+
+---
+
+## Architecture & Stack Comparison
+
+```mermaid
+flowchart TD
+    subgraph ClientInterfaces ["Developer Access Interfaces"]
+        Terminal["Terminal CLI & TUI<br/>(navi, cheat, tealdeer, curl)"]
+        GUI["Offline Desktop GUI<br/>(Dash, Zeal, DevDocs PWA)"]
+        WebAI["AI Terminals & Web<br/>(Warp, ExplainShell, Raycast)"]
+    end
+
+    subgraph KnowledgeBases ["Documentation Knowledge Layers"]
+        TLDR["tldr-pages<br/>(Concise Markdown Examples)"]
+        ManPages["System Manpages<br/>(POSIX, roff, groff)"]
+        Docsets["Structured Docsets<br/>(HTML, SQLite, Dash/Zeal)"]
+        Community["Crowdsourced Snippets<br/>(cheat.sh, commandlinefu)"]
+    end
+
+    Terminal --> TLDR
+    Terminal --> Community
+    GUI --> Docsets
+    WebAI --> ManPages
+    WebAI --> TLDR
+```
+
+---
+
+## How to Choose the Right Tool
+
+- **For immediate syntax recall without installation**: Run `curl cht.sh/<command>` in any terminal.
+- **For fast, human-readable everyday command examples**: Install `tealdeer` (`tldr`) via your system package manager.
+- **For interactive command building with parameter auto-completion**: Use `navi` configured with your shell hooks (`Ctrl+G`).
+- **For offline documentation without an active internet connection**: Use **Zeal** (Linux/Windows) or **Dash** (macOS).
+- **For corporate or team-internal cheatsheet repositories**: Deploy `cheat` with shared Git cheatpaths.
+- **For learning what a complex multi-pipe one-liner does**: Paste the command into **ExplainShell**.
+
+---
+
+## How to Contribute
+
+Contributions are welcome! To add or update an entry:
+
+1. Fork this repository.
+2. Verify that open-source entries include their repository URL and star counter badge.
+3. Verify that SaaS products include specific starting tier pricing, free tier limits, and valuation/revenue context.
+4. Keep entries concise, objective, and alphabetized or star-sorted within their respective sections.
+5. Submit a pull request with a descriptive title and summary.
+
+---
+
+## Disclaimer & Best Practices
+
+- This repository is a community-maintained curated guide and does not constitute an endorsement of any commercial platform.
+- When running commands retrieved from online cheatsheets, verify that arguments (especially flags related to recursive deletion, privilege escalation, or disk writing like `rm -rf`, `dd`, or `chmod -R`) are safe for your environment.
+- Cheatsheet tools are complementary: use `tldr` or `cheat.sh` for quick practical patterns, and consult primary `man` pages or official vendor documentation for definitive edge-case behaviors.
+
+---
+
+<p align="center">
+  <sub>Maintained with ❤️ for developers, system administrators, and open-source practitioners.</sub>
+</p>
