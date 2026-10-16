@@ -58,61 +58,61 @@ All open-source repositories below are sorted in **descending order by GitHub st
 
 ### ⭐ Primary Category Leaders
 
-- **[tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)** [![GitHub stars](https://img.shields.io/github/stars/tiimgreen/github-cheat-sheet?style=social&color=white)](https://github.com/tiimgreen/github-cheat-sheet/stargazers)  
+- **[tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)** [![GitHub_Stars](https://img.shields.io/github/stars/tiimgreen/github-cheat-sheet?style=social&color=white)](https://github.com/tiimgreen/github-cheat-sheet/stargazers)  
   *A comprehensive, multi-language guide of tips, tricks, and hidden features for Git and GitHub.* Features in-depth shortcuts for git CLI revisions, rebasing, stash tricks, submodule handling, and GitHub search syntaxes.
 
-- **[tldr-pages/tldr](https://github.com/tldr-pages/tldr)** [![GitHub stars](https://img.shields.io/github/stars/tldr-pages/tldr?style=social&color=white)](https://github.com/tldr-pages/tldr/stargazers)  
+- **[tldr-pages/tldr](https://github.com/tldr-pages/tldr)** [![GitHub_Stars](https://img.shields.io/github/stars/tldr-pages/tldr?style=social&color=white)](https://github.com/tldr-pages/tldr/stargazers)  
   *Collaborative, community-driven cheatsheets for command-line tools.* The de-facto standard complement to dense man pages, providing practical, real-world examples for thousands of commands across Linux, macOS, Windows, and FreeBSD. Supported by native clients across Rust, Python, Go, and web PWAs.
 
-- **[chubin/cheat.sh](https://github.com/chubin/cheat.sh)** [![GitHub stars](https://img.shields.io/github/stars/chubin/cheat.sh?style=social&color=white)](https://github.com/chubin/cheat.sh/stargazers)  
+- **[chubin/cheat.sh](https://github.com/chubin/cheat.sh)** [![GitHub_Stars](https://img.shields.io/github/stars/chubin/cheat.sh?style=social&color=white)](https://github.com/chubin/cheat.sh/stargazers)  
   *The only cheatsheet you need — accessible via plain curl.* Zero-installation cheatsheet service aggregating tldr-pages, StackOverflow, and specialized community sheets covering 56+ programming languages and hundreds of UNIX utilities (`curl cht.sh/tar`).
 
-- **[freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs)** [![GitHub stars](https://img.shields.io/github/stars/freeCodeCamp/devdocs?style=social&color=white)](https://github.com/freeCodeCamp/devdocs/stargazers)  
+- **[freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs)** [![GitHub_Stars](https://img.shields.io/github/stars/freeCodeCamp/devdocs?style=social&color=white)](https://github.com/freeCodeCamp/devdocs/stargazers)  
   *All-in-one API documentation environment with offline PWA support.* Integrates official documentation sets for major programming languages, web APIs, and frameworks into a fast, keyboard-navigable desktop and mobile interface.
 
-- **[alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)** [![GitHub stars](https://img.shields.io/github/stars/alebcay/awesome-shell?style=social&color=white)](https://github.com/alebcay/awesome-shell/stargazers)  
+- **[alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)** [![GitHub_Stars](https://img.shields.io/github/stars/alebcay/awesome-shell?style=social&color=white)](https://github.com/alebcay/awesome-shell/stargazers)  
   *Curated collection of command-line frameworks, shells, documentation utilities, and terminal productivity tools.* Provides an extensive directory of command-line productivity enhancements.
 
-- **[denisidoro/navi](https://github.com/denisidoro/navi)** [![GitHub stars](https://img.shields.io/github/stars/denisidoro/navi?style=social&color=white)](https://github.com/denisidoro/navi/stargazers)  
+- **[denisidoro/navi](https://github.com/denisidoro/navi)** [![GitHub_Stars](https://img.shields.io/github/stars/denisidoro/navi?style=social&color=white)](https://github.com/denisidoro/navi/stargazers)  
   *Interactive cheatsheet tool with fuzzy auto-completion and parameter suggestions.* Written in Rust, navi prompts for command parameters dynamically from custom or cheat.sh repositories, saving developers from manually copying parameters or memorizing complex syntax.
 
-- **[idank/explainshell](https://github.com/idank/explainshell)** [![GitHub stars](https://img.shields.io/github/stars/idank/explainshell?style=social&color=white)](https://github.com/idank/explainshell/stargazers)  
+- **[idank/explainshell](https://github.com/idank/explainshell)** [![GitHub_Stars](https://img.shields.io/github/stars/idank/explainshell?style=social&color=white)](https://github.com/idank/explainshell/stargazers)  
   *Live web application that parses shell commands into AST tokens and highlights manpage matches.* Breaks down complex shell incantations (arguments, flags, redirections) and presents individual manual explanations.
 
-- **[cheat/cheat](https://github.com/cheat/cheat)** [![GitHub stars](https://img.shields.io/github/stars/cheat/cheat?style=social&color=white)](https://github.com/cheat/cheat/stargazers)  
+- **[cheat/cheat](https://github.com/cheat/cheat)** [![GitHub_Stars](https://img.shields.io/github/stars/cheat/cheat?style=social&color=white)](https://github.com/cheat/cheat/stargazers)  
   *Create and view interactive cheatsheets directly in your terminal.* Tailored for system administrators and DevOps engineers to manage private, team, and community cheatsheets in plain text with fuzzy search via fzf.
 
-- **[zealdocs/zeal](https://github.com/zealdocs/zeal)** [![GitHub stars](https://img.shields.io/github/stars/zealdocs/zeal?style=social&color=white)](https://github.com/zealdocs/zeal/stargazers)  
+- **[zealdocs/zeal](https://github.com/zealdocs/zeal)** [![GitHub_Stars](https://img.shields.io/github/stars/zealdocs/zeal?style=social&color=white)](https://github.com/zealdocs/zeal/stargazers)  
   *Offline documentation browser for Linux and Windows inspired by Dash.* Connects to 200+ Dash-compatible docsets with zero internet dependency, fast symbol search, and editor integrations (Vim, Emacs, VS Code).
 
-- **[skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)** [![GitHub stars](https://img.shields.io/github/stars/skywind3000/awesome-cheatsheets?style=social&color=white)](https://github.com/skywind3000/awesome-cheatsheets/stargazers)  
+- **[skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)** [![GitHub_Stars](https://img.shields.io/github/stars/skywind3000/awesome-cheatsheets?style=social&color=white)](https://github.com/skywind3000/awesome-cheatsheets/stargazers)  
   *Curated quick reference sheets for developers, database architects, and sysadmins.* Comprehensive cheat sheets covering Bash, Git, Python, VIM, tmux, gdb, regex, and network diagnostics.
 
-- **[Idnan/bash-guide](https://github.com/Idnan/bash-guide)** [![GitHub stars](https://img.shields.io/github/stars/Idnan/bash-guide?style=social&color=white)](https://github.com/Idnan/bash-guide/stargazers)  
+- **[Idnan/bash-guide](https://github.com/Idnan/bash-guide)** [![GitHub_Stars](https://img.shields.io/github/stars/Idnan/bash-guide?style=social&color=white)](https://github.com/Idnan/bash-guide/stargazers)  
   *Comprehensive guide to mastering the Bash command line.* Covers core shell patterns, parameter expansions, flow controls, and essential CLI commands with syntax references.
 
-- **[tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer)** [![GitHub stars](https://img.shields.io/github/stars/tealdeer-rs/tealdeer?style=social&color=white)](https://github.com/tealdeer-rs/tealdeer/stargazers)  
+- **[tealdeer-rs/tealdeer](https://github.com/tealdeer-rs/tealdeer)** [![GitHub_Stars](https://img.shields.io/github/stars/tealdeer-rs/tealdeer?style=social&color=white)](https://github.com/tealdeer-rs/tealdeer/stargazers)  
   *Blazing fast implementation of tldr in Rust.* Fetches and caches tldr pages locally with millisecond lookup speeds, syntax coloring, and automatic background cache updates.
 
-- **[gnebbia/kb](https://github.com/gnebbia/kb)** [![GitHub stars](https://img.shields.io/github/stars/gnebbia/kb?style=social&color=white)](https://github.com/gnebbia/kb/stargazers)  
+- **[gnebbia/kb](https://github.com/gnebbia/kb)** [![GitHub_Stars](https://img.shields.io/github/stars/gnebbia/kb?style=social&color=white)](https://github.com/gnebbia/kb/stargazers)  
   *Minimalist command-line knowledge base manager.* Designed to collect, organize, and search personal cheatsheets, procedures, code snippets, and operational runbooks directly in the terminal.
 
-- **[srsudar/eg](https://github.com/srsudar/eg)** [![GitHub stars](https://img.shields.io/github/stars/srsudar/eg?style=social&color=white)](https://github.com/srsudar/eg/stargazers)  
+- **[srsudar/eg](https://github.com/srsudar/eg)** [![GitHub_Stars](https://img.shields.io/github/stars/srsudar/eg?style=social&color=white)](https://github.com/srsudar/eg/stargazers)  
   *Practical command-line examples with clear explanations.* Complements man pages with user-tested command examples and inline annotations.
 
-- **[isacikgoz/tldr](https://github.com/isacikgoz/tldr)** [![GitHub stars](https://img.shields.io/github/stars/isacikgoz/tldr?style=social&color=white)](https://github.com/isacikgoz/tldr/stargazers)  
+- **[isacikgoz/tldr](https://github.com/isacikgoz/tldr)** [![GitHub_Stars](https://img.shields.io/github/stars/isacikgoz/tldr?style=social&color=white)](https://github.com/isacikgoz/tldr/stargazers)  
   *Interactive command-line client for tldr written in Go.* Supports interactive fuzzy matching and direct command execution from the tldr prompt.
 
-- **[tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)** [![GitHub stars](https://img.shields.io/github/stars/tldr-pages/tlrc?style=social&color=white)](https://github.com/tldr-pages/tlrc/stargazers)  
+- **[tldr-pages/tlrc](https://github.com/tldr-pages/tlrc)** [![GitHub_Stars](https://img.shields.io/github/stars/tldr-pages/tlrc?style=social&color=white)](https://github.com/tldr-pages/tlrc/stargazers)  
   *Official client specification for tldr in Rust.* Standard reference client maintaining strict POSIX and cross-platform compatibility.
 
-- **[filiparag/wikiman](https://github.com/filiparag/wikiman)** [![GitHub stars](https://img.shields.io/github/stars/filiparag/wikiman?style=social&color=white)](https://github.com/filiparag/wikiman/stargazers)  
+- **[filiparag/wikiman](https://github.com/filiparag/wikiman)** [![GitHub_Stars](https://img.shields.io/github/stars/filiparag/wikiman?style=social&color=white)](https://github.com/filiparag/wikiman/stargazers)  
   *Universal offline documentation search engine.* Unifies manual pages, tldr-pages, ArchWiki, Gentoo Wiki, and FreeBSD docs into a unified TUI search with fuzzy matching.
 
-- **[halilkirazkaya/arsenal-ng](https://github.com/halilkirazkaya/arsenal-ng)** [![GitHub stars](https://img.shields.io/github/stars/halilkirazkaya/arsenal-ng?style=social&color=white)](https://github.com/halilkirazkaya/arsenal-ng/stargazers)  
+- **[halilkirazkaya/arsenal-ng](https://github.com/halilkirazkaya/arsenal-ng)** [![GitHub_Stars](https://img.shields.io/github/stars/halilkirazkaya/arsenal-ng?style=social&color=white)](https://github.com/halilkirazkaya/arsenal-ng/stargazers)  
   *Modern security & pentest command launcher with cheatsheet manager.* Features 150+ categorized cybersecurity cheatsheets with an interactive fuzzy TUI.
 
-- **[hubsmoke/bro](https://github.com/hubsmoke/bro)** [![GitHub stars](https://img.shields.io/github/stars/hubsmoke/bro?style=social&color=white)](https://github.com/hubsmoke/bro/stargazers)  
+- **[hubsmoke/bro](https://github.com/hubsmoke/bro)** [![GitHub_Stars](https://img.shields.io/github/stars/hubsmoke/bro?style=social&color=white)](https://github.com/hubsmoke/bro/stargazers)  
   *Historical crowdsourced command examples utility.* The foundational project that inspired modern crowdsourced help pages (now archived; historically significant).
 
 ---
@@ -171,7 +171,7 @@ flowchart TD
 Contributions are welcome! To add or update an entry:
 
 1. 🍴 Fork this repository.
-2. 🔍 Verify that open-source entries include their repository URL and star counter badge.
+2. 🔍 Verify that open-source entries include their repository URL and Stars_Counter badge.
 3. 🏷️ Verify that SaaS products include specific starting tier pricing, free tier limits, and valuation/revenue context.
 4. 📝 Keep entries concise, objective, and alphabetized or star-sorted within their respective sections.
 5. 🚀 Submit a pull request with a descriptive title and summary.
