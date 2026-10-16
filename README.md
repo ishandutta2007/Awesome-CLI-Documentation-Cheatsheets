@@ -2,41 +2,44 @@
   <img src="assets/banner.svg" alt="Awesome CLI Documentation & Cheatsheets Ecosystem" width="100%" />
 </p>
 
-# Awesome CLI Documentation & Cheatsheets Ecosystem
+# 🚀 Awesome CLI Documentation & Cheatsheets Ecosystem
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![Tracked Projects](https://img.shields.io/badge/Tools_Tracked-25+-blue.svg)](#table-of-contents)
+[![Tracked Projects](https://img.shields.io/badge/Tools_Tracked-25+-blue.svg)](#-table-of-contents)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-> A comprehensive, SEO-optimized, curated guide to CLI documentation tools, interactive cheatsheet managers, simplified man pages, offline documentation browsers, and developer productivity launchers.
+> 📚 A comprehensive, SEO-optimized, curated guide to CLI documentation tools, interactive cheatsheet managers, simplified man pages, offline documentation browsers, and developer productivity launchers.
 
-Last updated: October 2026
-
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Platforms](#saas--hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-  - [Primary Category Leaders](#primary-category-leaders)
-  - [Interactive TUI & CLI Cheatsheet Managers](#interactive-tui--cli-cheatsheet-managers)
-  - [Specialized Cheatsheet References & Handbooks](#specialized-cheatsheet-references--handbooks)
-- [Architecture & Stack Comparison](#architecture--stack-comparison)
-- [How to Choose the Right Tool](#how-to-choose-the-right-tool)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer & Best Practices](#disclaimer--best-practices)
+📅 Last updated: October 2026
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Primary Category Leaders](#-primary-category-leaders)
+  - [⚡ Interactive TUI & CLI Cheatsheet Managers](#-interactive-tui--cli-cheatsheet-managers)
+- [🏗️ Architecture & Stack Comparison](#️-architecture--stack-comparison)
+- [🎯 How to Choose the Right Tool](#-how-to-choose-the-right-tool)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [🌟 Star History](#-star-history)
+- [💖 Support](#-support)
+- [⚖️ Disclaimer & Best Practices](#️-disclaimer--best-practices)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The developer documentation and CLI cheatsheets domain represents a critical sub-segment of the broader developer tooling and productivity software market, currently estimated at **$1.8B to $2.2B** globally with an accelerating CAGR of ~16.5% powered by AI terminal assistants. The ecosystem exhibits **moderate-to-high fragmentation** at the lookup and reference level (divided among community-maintained Markdown pages, local SQLite-backed docsets, and terminal curl interfaces), but transitions toward **winner-take-most concentration** in modern GPU-accelerated and AI-native terminal workflows where deep ecosystem integration and network effects dominate developer workstations.
 
 ---
 
-## SaaS & Hosted Platforms
+## ☁️ SaaS & Hosted Platforms
 
 | Product | Valuation / Revenue | Starting Price | Free Tier Limits | Key Highlights & Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -49,11 +52,11 @@ The developer documentation and CLI cheatsheets domain represents a critical sub
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 All open-source repositories below are sorted in **descending order by GitHub stargazers count** and feature social badge counters linking directly to each project's stargazers community.
 
-### Primary Category Leaders
+### ⭐ Primary Category Leaders
 
 - **[tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet)** [![GitHub stars](https://img.shields.io/github/stars/tiimgreen/github-cheat-sheet?style=social&color=white)](https://github.com/tiimgreen/github-cheat-sheet/stargazers)  
   *A comprehensive, multi-language guide of tips, tricks, and hidden features for Git and GitHub.* Features in-depth shortcuts for git CLI revisions, rebasing, stash tricks, submodule handling, and GitHub search syntaxes.
@@ -114,7 +117,7 @@ All open-source repositories below are sorted in **descending order by GitHub st
 
 ---
 
-### Interactive TUI & CLI Cheatsheet Managers
+### ⚡ Interactive TUI & CLI Cheatsheet Managers
 
 | Tool | Ecosystem / Language | Primary Interface | Offline Capable | Best Used For |
 | :--- | :--- | :--- | :--- | :--- |
@@ -126,7 +129,7 @@ All open-source repositories below are sorted in **descending order by GitHub st
 
 ---
 
-## Architecture & Stack Comparison
+## 🏗️ Architecture & Stack Comparison
 
 ```mermaid
 flowchart TD
@@ -152,37 +155,55 @@ flowchart TD
 
 ---
 
-## How to Choose the Right Tool
+## 🎯 How to Choose the Right Tool
 
-- **For immediate syntax recall without installation**: Run `curl cht.sh/<command>` in any terminal.
-- **For fast, human-readable everyday command examples**: Install `tealdeer` (`tldr`) via your system package manager.
-- **For interactive command building with parameter auto-completion**: Use `navi` configured with your shell hooks (`Ctrl+G`).
-- **For offline documentation without an active internet connection**: Use **Zeal** (Linux/Windows) or **Dash** (macOS).
-- **For corporate or team-internal cheatsheet repositories**: Deploy `cheat` with shared Git cheatpaths.
-- **For learning what a complex multi-pipe one-liner does**: Paste the command into **ExplainShell**.
+- 🔍 **For immediate syntax recall without installation**: Run `curl cht.sh/<command>` in any terminal.
+- ⚡ **For fast, human-readable everyday command examples**: Install `tealdeer` (`tldr`) via your system package manager.
+- 🛠️ **For interactive command building with parameter auto-completion**: Use `navi` configured with your shell hooks (`Ctrl+G`).
+- 📖 **For offline documentation without an active internet connection**: Use **Zeal** (Linux/Windows) or **Dash** (macOS).
+- 👥 **For corporate or team-internal cheatsheet repositories**: Deploy `cheat` with shared Git cheatpaths.
+- 💡 **For learning what a complex multi-pipe one-liner does**: Paste the command into **ExplainShell**.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 Contributions are welcome! To add or update an entry:
 
-1. Fork this repository.
-2. Verify that open-source entries include their repository URL and star counter badge.
-3. Verify that SaaS products include specific starting tier pricing, free tier limits, and valuation/revenue context.
-4. Keep entries concise, objective, and alphabetized or star-sorted within their respective sections.
-5. Submit a pull request with a descriptive title and summary.
+1. 🍴 Fork this repository.
+2. 🔍 Verify that open-source entries include their repository URL and star counter badge.
+3. 🏷️ Verify that SaaS products include specific starting tier pricing, free tier limits, and valuation/revenue context.
+4. 📝 Keep entries concise, objective, and alphabetized or star-sorted within their respective sections.
+5. 🚀 Submit a pull request with a descriptive title and summary.
 
 ---
 
-## Disclaimer & Best Practices
+## 🌟 Star History
 
-- This repository is a community-maintained curated guide and does not constitute an endorsement of any commercial platform.
-- When running commands retrieved from online cheatsheets, verify that arguments (especially flags related to recursive deletion, privilege escalation, or disk writing like `rm -rf`, `dd`, or `chmod -R`) are safe for your environment.
-- Cheatsheet tools are complementary: use `tldr` or `cheat.sh` for quick practical patterns, and consult primary `man` pages or official vendor documentation for definitive edge-case behaviors.
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-CLI-Documentation-Cheatsheets&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-CLI-Documentation-Cheatsheets&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you so much for exploring and using **Awesome CLI Documentation & Cheatsheets**! 🙏
+
+If you find this repository helpful, please consider supporting the project:
+- ⭐ **Star** this repository on GitHub to help others discover it.
+- 🍴 **Fork** and contribute your favorite CLI tools and cheatsheets.
+- 📢 **Share** it with your developer friends, teams, and communities.
+- ☕ **Buy Me a Coffee / Sponsor**: Support ongoing maintenance and curation on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer & Best Practices
+
+- 📌 This repository is a community-maintained curated guide and does not constitute an endorsement of any commercial platform.
+- ⚠️ When running commands retrieved from online cheatsheets, verify that arguments (especially flags related to recursive deletion, privilege escalation, or disk writing like `rm -rf`, `dd`, or `chmod -R`) are safe for your environment.
+- 💡 Cheatsheet tools are complementary: use `tldr` or `cheat.sh` for quick practical patterns, and consult primary `man` pages or official vendor documentation for definitive edge-case behaviors.
 
 ---
 
 <p align="center">
-  <sub>Maintained with ❤️ for developers, system administrators, and open-source practitioners.</sub>
+  <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and community contributors.</sub>
 </p>
